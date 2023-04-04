@@ -16,9 +16,19 @@
         <h2>My Coding Activity & Stats</h2>
 
         <!-- Summary widget -->
-        <codersrank-summary username="cwjki"></codersrank-summary>
+        <codersrank-summary
+          username="cwjki"
+          show-header="false"
+        ></codersrank-summary>
 
         <!-- Activity widget -->
+        <codersrank-activity
+          username="cwjki"
+          legend="false"
+          labels
+          tooltip
+          step="5"
+        ></codersrank-activity>
 
         <!-- Skills chart widget -->
       </section>
@@ -40,7 +50,7 @@
       </footer>
     </main>
 
-    <!-- replace x.x.x with actual version -->
     <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+    <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
   </body>
 </html>
